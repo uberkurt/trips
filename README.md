@@ -9,10 +9,9 @@ Requires:
 - python
 - bottle 
 - pyes
-- 
 
-Run python ws.py to 
-Query tool viewable at:
+
+Run python ws.py to query the tool viewable at:
 http://uber.kurtado.com/
 
 Elasticsearch-head plugin available at:
