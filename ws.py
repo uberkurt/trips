@@ -6,12 +6,12 @@ def trips():
     return '''
         <form action="/trips" method="post">
           <p>
-            Top-left lat: <input name="tllat" type="text" />
-            Top-left lon: <input name="tllon" type="text" />
+            Top-left lat: <input name="tllat" type="text" value="37.78" />
+            Top-left lon: <input name="tllon" type="text" value="-122.6" />
           </p>
           <p>
-            Bottom-right lat: <input name="brlat" type="text" />
-            Bottom-right lon: <input name="brlon" type="text" />
+            Bottom-right lat: <input name="brlat" type="text" value="37.74" />
+            Bottom-right lon: <input name="brlon" type="text" value="-122.3" />
           </p>
           <p>
             <input name="start" value="started here" type="submit" />&nbsp;<input name="end" value="ended here" type="submit" />
